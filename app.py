@@ -1,8 +1,9 @@
 import streamlit as st
 import yt_dlp
 import os
-import shutil
 from pathlib import Path
+
+os.environ["PATH"] += os.pathsep + "/usr/local/bin"  # Helps find ffmpeg
 
 # === Page Config ===
 st.set_page_config(
