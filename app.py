@@ -14,7 +14,7 @@ st.set_page_config(
 
 # === Title & Style ===
 st.title("🎵 YT to MP3 Converter")
-st.markdown("### Fast • 320kbps • Free • Created by **Dharnish**")
+st.markdown("### Fast • 320kbps • Free • Created by **DharnishDP**")
 st.markdown("---")
 
 # Input
